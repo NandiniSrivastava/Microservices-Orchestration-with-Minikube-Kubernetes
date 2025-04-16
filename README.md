@@ -37,7 +37,8 @@ First, start your Minikube cluster:
 minikube start
 ```
 <p align="center">
-  ![image](https://github.com/user-attachments/assets/9a5fafdc-40c6-43f6-8ac5-a564162924fa)
+
+![image](https://github.com/user-attachments/assets/229267aa-0f09-448a-a437-57510b5a673a)
 
 </p>
 
@@ -134,7 +135,9 @@ This will open your browser to the API Gateway endpoint, which will display a me
 
 </p>
 <p align="center">
-  ![image](https://github.com/user-attachments/assets/e53688f2-2061-4130-9b6c-32d8439174ef)
+
+![image](https://github.com/user-attachments/assets/95fe99d5-8987-457a-a34f-8da2d01986e9)
+
 
 </p>
 
