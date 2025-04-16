@@ -37,7 +37,8 @@ First, start your Minikube cluster:
 minikube start
 ```
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/06b8cd7b508371feb76430430aad0e4cf80f8ed7/Microservices%20Orchestration%20with%20Minikube%20%26%20Kubernetes/images/Screenshot%202025-03-21%20014343.png" alt="Screenshot">
+  ![image](https://github.com/user-attachments/assets/9a5fafdc-40c6-43f6-8ac5-a564162924fa)
+
 </p>
 
 ### 2. Set Up Docker Environment
@@ -47,6 +48,8 @@ Configure Docker to use Minikube's Docker daemon:
 ```bash
 eval $(minikube -p minikube docker-env)
 ```
+
+![image](https://github.com/user-attachments/assets/9855dc84-d56c-4751-a734-fb667757a92d)
 
 ### 3. Build and Deploy Services
 
@@ -67,7 +70,11 @@ docker build -t backend-service .
 kubectl apply -f ../kubernetes/backend-service.yaml
 ```
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/06b8cd7b508371feb76430430aad0e4cf80f8ed7/Microservices%20Orchestration%20with%20Minikube%20%26%20Kubernetes/images/Screenshot%202025-03-21%20014834.png" alt="Screenshot">
+
+  ![image](https://github.com/user-attachments/assets/6ed8d629-2598-4f47-bff6-2a25d97bbbea)
+
+![image](https://github.com/user-attachments/assets/654c67a4-cfe3-497e-b154-b6c219110674)
+
 </p>
 
 #### 3.2 API Gateway
@@ -82,12 +89,18 @@ cd ../api-gateway
 docker build -t api-gateway .
 ```
 
+
+![image](https://github.com/user-attachments/assets/18ee280f-c83e-4576-bab7-9cf5a7e9ddf0)
+
+
 3. Deploy to Kubernetes:
 ```bash
 kubectl apply -f ../kubernetes/api-gateway.yaml
 ```
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/06b8cd7b508371feb76430430aad0e4cf80f8ed7/Microservices%20Orchestration%20with%20Minikube%20%26%20Kubernetes/images/Screenshot%202025-03-21%20015036.png" alt="Screenshot">
+
+![image](https://github.com/user-attachments/assets/e4504f4c-479f-4525-b3a3-8056cbfa716d)
+
 </p>
 
 ### 4. Verify Deployment
@@ -99,7 +112,11 @@ kubectl get deployments
 kubectl get services
 ```
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/06b8cd7b508371feb76430430aad0e4cf80f8ed7/Microservices%20Orchestration%20with%20Minikube%20%26%20Kubernetes/images/Screenshot%202025-03-21%20020054.png" alt="Screenshot">
+
+  ![image](https://github.com/user-attachments/assets/caab850c-2c7c-4168-8a8f-7b847bc0a824)
+
+![image](https://github.com/user-attachments/assets/ad2a92d5-cb36-4f5f-8284-f5c0d3bd56c7)
+
 </p>
 
 ### 5. Access the Application
@@ -112,10 +129,13 @@ minikube service api-gateway
 This will open your browser to the API Gateway endpoint, which will display a message from the backend service.
 
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/06b8cd7b508371feb76430430aad0e4cf80f8ed7/Microservices%20Orchestration%20with%20Minikube%20%26%20Kubernetes/images/Screenshot%202025-03-21%20015902.png" alt="Screenshot">
+
+  ![image](https://github.com/user-attachments/assets/80baff4b-8210-43a0-9727-39fc876adc28)
+
 </p>
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/06b8cd7b508371feb76430430aad0e4cf80f8ed7/Microservices%20Orchestration%20with%20Minikube%20%26%20Kubernetes/images/Screenshot%202025-03-21%20020139.png" alt="Screenshot">
+  ![image](https://github.com/user-attachments/assets/e53688f2-2061-4130-9b6c-32d8439174ef)
+
 </p>
 
 ### 6. Monitoring and Debugging
@@ -146,7 +166,9 @@ kubectl delete -f kubernetes/backend-service.yaml
 minikube stop
 ```
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/06b8cd7b508371feb76430430aad0e4cf80f8ed7/Microservices%20Orchestration%20with%20Minikube%20%26%20Kubernetes/images/Screenshot%202025-03-21%20020704.png" alt="Screenshot">
+
+  ![image](https://github.com/user-attachments/assets/2b3815aa-bd20-4c3e-8cfb-2932c1e66bf7)
+
 </p>
 
 ## Architecture Overview
