@@ -136,7 +136,8 @@ This will open your browser to the API Gateway endpoint, which will display a me
 </p>
 <p align="center">
 
-![image](https://github.com/user-attachments/assets/95fe99d5-8987-457a-a34f-8da2d01986e9)
+
+![image](https://github.com/user-attachments/assets/e39bf76b-5683-4dc8-b8c8-1089cca60c07)
 
 
 </p>
